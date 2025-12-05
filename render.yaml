@@ -6,7 +6,8 @@ services:
     plan: free
     buildCommand: cd frontend && pnpm install && pnpm build
     startCommand: cd frontend && pnpm start
-    rootDir: ./
+    rootDir: ./frontend
+    publishDirectory: ./frontend/.next
     envVars:
       - key: NODE_VERSION
         value: "20"
