@@ -1,0 +1,12 @@
+services:
+  - type: web
+    name: kanban
+    env: node
+    region: oregon
+    plan: free
+    buildCommand: cd frontend && pnpm install && pnpm build
+    startCommand: cd frontend && pnpm start
+    rootDir: ./
+    envVars:
+      - key: NODE_VERSION
+        value: "20"
