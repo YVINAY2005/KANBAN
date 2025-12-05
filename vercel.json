@@ -1,5 +1,5 @@
 {
-  "buildCommand": "cd frontend && npm install -g pnpm && pnpm install && pnpm build",
+  "buildCommand": "npm install -g pnpm && cd frontend && pnpm install && pnpm build",
   "startCommand": "cd frontend && pnpm start",
   "env": "nodejs"
 }
