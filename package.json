@@ -1,0 +1,15 @@
+{
+  "name": "kanban-monorepo",
+  "version": "0.1.0",
+  "private": true,
+  "workspaces": [
+    "frontend"
+  ],
+  "scripts": {
+    "dev": "cd frontend && pnpm dev",
+    "build": "cd frontend && pnpm build",
+    "start": "cd frontend && pnpm start",
+    "build-storybook": "cd frontend && pnpm build-storybook",
+    "storybook": "cd frontend && pnpm storybook"
+  }
+}
