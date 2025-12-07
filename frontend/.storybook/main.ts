@@ -14,6 +14,7 @@ const config: StorybookConfig = {
   "framework": "@storybook/nextjs-vite",
   "staticDirs": [
     "../public"
-  ]
+  ],
+  "favicon": "../public/icon.svg"
 };
 export default config;
